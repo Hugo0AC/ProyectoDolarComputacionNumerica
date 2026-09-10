@@ -1,7 +1,7 @@
 import numpy as np
 import errores as err
-from cargar_datos import obtener_archivos, normalizar_datos, obtener_anio
 import matplotlib.pyplot as plt
+
 
 def pregunta_B1():
     #Cifras significativas = mantisa corta
@@ -36,7 +36,7 @@ def pregunta_B2(anios_completos):
 
     fig.tight_layout()
     fig.savefig(
-        "ProblemaDolarSII\\graficos\\Grafico_2b.png",
+        "graficos\\Grafico_2b.png",
         dpi=300,
         bbox_inches="tight"
     )

@@ -20,7 +20,7 @@ def grafico_dolar(anios_completos):
 
     fig.tight_layout()
     fig.savefig(
-        "ProblemaDolarSII\\graficos\\Grafico_dolar.png",
+        "graficos\\Grafico_dolar.png",
         dpi=300,
         bbox_inches="tight"
     )
@@ -51,7 +51,7 @@ def grafico_variacion(anios_completos):
 
     fig.tight_layout()
     fig.savefig(
-        "ProblemaDolarSII\\graficos\\Grafico_variacion.png",
+        "graficos\\Grafico_variacion.png",
         dpi=300,
         bbox_inches="tight"
     )
@@ -84,7 +84,7 @@ def grafico_error_representacion(anios_completos):
 
     fig.tight_layout()
     fig.savefig(
-        "ProblemaDolarSII\\graficos\\Grafico_error_representacion.png",
+        "graficos\\Grafico_error_representacion.png",
         dpi=300,
         bbox_inches="tight"
     )
@@ -136,7 +136,7 @@ def grafico_rentabilidad_minimo(anios_completos):
 
     fig.tight_layout()
     fig.savefig(
-        "ProblemaDolarSII\\graficos\\Grafico_rentabilida_minima.png",
+        "graficos\\Grafico_rentabilida_minima.png",
         dpi=300,
         bbox_inches="tight"
     )
@@ -163,7 +163,7 @@ def grafico_deriva(anios_completos):
 
     fig.tight_layout()
     fig.savefig(
-        "ProblemaDolarSII\\graficos\\Grafico_deriva.png",
+        "graficos\\Grafico_deriva.png",
         dpi=300,
         bbox_inches="tight"
     )

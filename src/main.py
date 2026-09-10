@@ -34,11 +34,11 @@ def generar_archivo(anios_completos):
         "Error relativo"
     ])
 
-    df.to_csv("ProblemaDolarSII\\data\\resultados.csv", index=False)
+    df.to_csv("data\\resultados.csv", index=False)
 
 if __name__ == "__main__":
     anios = ["2022", "2023", "2024", "2025"]
-    direccion = "ProblemaDolarSII\\data\\dolar_observado_sii_2022_2025.csv"
+    direccion = "data\\dolar_observado_sii_2022_2025.csv"
     datos = cd.obtener_archivos(direccion)
     a2022 = cd.obtener_anio(cd.normalizar_datos(datos), "2022")
     a2023 = cd.obtener_anio(cd.normalizar_datos(datos), "2023")
